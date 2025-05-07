@@ -1,0 +1,31 @@
+/* Dine In Container */
+.dine-in-container {
+    background-color: #001744; 
+    color: white; 
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Title Styles */
+.dine-in-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #f5a623; 
+}
+
+/* Timings List */
+.dine-in-timings {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 2; 
+    color: #d0d6db; 
+}
+
+.dine-in-timings li {
+    margin-bottom: 10px; 
+}

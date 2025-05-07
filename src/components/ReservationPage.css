@@ -1,0 +1,138 @@
+.reservation-container {
+ background-color: #001744;
+ color: #f1a81c;
+}
+
+.whole-form{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f1a81c;
+}
+
+.restaurant-name {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.rating {
+  font-size: 1rem;
+  color:#f1a81c;
+}
+
+.review-count {
+  color: #666;
+}
+
+.cuisine-info {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Reservation Form */
+.reservation-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.reservation-form label {
+  grid-column: span 1;
+  font-weight: bold;
+}
+
+.reservation-form input,
+.reservation-form select {
+  grid-column: span 1;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.reserve-button {
+  grid-column: span 2;
+  padding: 10px;
+  background-color:#f1a81c;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  justify-self: center;
+}
+
+.reserve-button:hover {
+  background-color: #e67e33;
+}
+
+/* Reservation Slip */
+.reservation-slip {
+  background-color:#f1a81c;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.reservation-slip h2 {
+  margin-bottom: 10px;
+  color:#001744;
+}
+
+.reservation-slip p {
+  margin: 5px 0;
+  color:#001744;
+}
+
+/* Notes and About Sections */
+.notes-section,
+.about-section,
+.map-section,
+.photos-section {
+  margin-bottom: 20px;
+}
+
+.notes-section h3,
+.about-section h3,
+.map-section h3,
+.photos-section h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color:#f1a81c;
+}
+
+.notes-section p,
+.about-section p {
+  font-size: 1rem;
+  color:#f1a81c;
+}
+
+/* Photos Section */
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.photo-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Map Section */
+.map-section iframe {
+  border: 0;
+  border-radius: 8px;
+}

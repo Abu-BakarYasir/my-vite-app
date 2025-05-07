@@ -1,0 +1,88 @@
+.contact{
+  background-color: #0a2e5c;
+  align-content: center;
+}
+.contact-content {
+    background-color: #001744;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    color: #f1a81c;
+    font-family: Arial, sans-serif;
+    display:block;
+   
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0 0 20px; /* Remove space above and keep space below */
+  color: #f1a81c;
+}
+
+p {
+  font-size: 1em;
+  margin: 0 0 20px;
+  color: #f1a81c;
+  line-height: 1.5;
+}
+
+.submit-form {
+  display: flex;
+  flex-direction:column;
+  gap: 15px;
+}
+
+label {
+  font-size: 1em;
+  font-weight: bold;
+  color: #f1a81c;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  align-self: center;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+button {
+  background-color:#f1a81c;
+  color:#001744;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 50%;
+  align-self: center;
+}
+
+button:hover {
+  background-color:#edd09b;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+}

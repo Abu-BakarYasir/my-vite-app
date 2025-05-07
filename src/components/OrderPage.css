@@ -1,0 +1,56 @@
+.order-summary-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+    background-color: #001744;
+    color: #f1a81c;
+}
+
+/* Heading Style */
+.order-summary-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    background-color: #001744;
+    color: #f1a81c;
+}
+
+/* Table Style */
+.order-summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Table Header Style */
+.order-summary-table th {
+    background-color: #f1a81c;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+/* Table Cell Style */
+.order-summary-table td {
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Total Section Style */
+.total-container {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #f1a81c;
+}
+
+/* Price Formatting */
+.price {
+    font-weight: normal;
+    color:#f1a81c;
+}

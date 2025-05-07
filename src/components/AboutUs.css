@@ -1,0 +1,163 @@
+.about-content{
+    background-color: #001744;
+    color:#f1a81c;
+    align-self: center;
+}
+#para {
+    color:#f1a81c;
+    box-shadow: #d0d6db;
+}
+
+.second {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.first{
+    text-align: center;
+}
+
+#img1 {
+   width: 60%;
+   height:400px;
+    display: block;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#img2 {
+    width:70%;
+    height:400px;
+    padding-bottom: 15px;
+    display: block;
+    margin: auto;
+}
+
+.second p {
+    flex: 1;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+    color: #d0d6db;
+    padding: 10px;
+}
+
+.show-more {
+    background-color: #f1a81c;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.show-more:hover {
+    background-color: aliceblue;
+    color: #001744;
+}
+
+.additional-info {
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #f1a81c;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#para2 {
+    color: #001744;
+}
+#visit-line{
+    margin: 10px 0 40px 50px;
+
+}
+.additional-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.additional-info p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.loc-hr-cont {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    justify-content: center; /* Center items horizontally */
+    gap: 50px; /* Spacing between sections */
+}
+
+.loc-cont, .hr {
+    max-width: 300px; /* Optional: Set a max width for uniformity */
+}
+
+.journey a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.cont a {
+    color: #f1a81c;
+    text-decoration: none;
+}
+
+.journey{
+    margin-left:120px;
+}
+@media (max-width: 768px) {
+    .second {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #img1 {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .second p {
+        text-align: center;
+    }
+
+    .journey p {
+        text-align: center;
+    }
+
+    .loc-cont {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .show-more {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .additional-info h3 {
+        font-size: 1.2rem;
+    }
+
+    .additional-info p {
+        font-size: 0.9rem;
+    }
+
+    .loc-cont {
+        gap: 10px;
+    }
+
+   
+
+    #img1 {
+        max-width: 90%;
+    }
+
+    .show-more {
+        font-size: 0.9rem;
+    }
+}
