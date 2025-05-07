@@ -24,7 +24,7 @@ function Aboutus() {
                 <h1>OUR STORY</h1>
                 <br />
                 <div className="second">
-                    <img id="img1" src="/pictures/monaal.png" alt="monal" />
+                    <img id="img1" src="/pictures/monal2.jpg" alt="monal" />
                     <p id="para">
                      A L - K H A N  R E S T A U R A N T strives to source local, sustainable, and organic when possible. 
                         We work hard to source premium ingredients and we cook everything from scratch with love.
