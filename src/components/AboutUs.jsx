@@ -122,7 +122,7 @@ function Aboutus() {
             <br/>
             <div className="pic-des">
                 <div className='first'>
-                    <img id="img2" src="/pictures/monal3.webp" alt="image shot at Yang's Kitchen" />
+                    <img id="img2" src="/pictures/table2.jpg" alt="image shot at Yang's Kitchen" />
                     <p>Image shot on location at A L - K H A N  R E S T A U R A N T</p>
                 </div>
             </div>
