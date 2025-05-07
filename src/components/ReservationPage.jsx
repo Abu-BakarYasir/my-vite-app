@@ -123,10 +123,10 @@ function ReservationPage() {
       <section className="photos-section">
         <h3>Photos</h3>
         <div className="photo-gallery">
-        <img src="src/pictures/pic1.jpg" alt="image shot at Yang's Kitchen" />
-        <img src="src/pictures/pic4.jpg" alt="image shot at Yang's Kitchen" />
-        <img src="src/pictures/pic6.jpg" alt="image shot at Yang's Kitchen" />
-        <img src="src/pictures/pic5.jpg" alt="image shot at Yang's Kitchen" />
+        <img src="/pictures/pic1.jpg" alt="image shot at Yang's Kitchen" />
+        <img src="/pictures/pic4.jpg" alt="image shot at Yang's Kitchen" />
+        <img src="/pictures/pic6.jpg" alt="image shot at Yang's Kitchen" />
+        <img src="/pictures/pic5.jpg" alt="image shot at Yang's Kitchen" />
         </div>
       </section>
       </div>

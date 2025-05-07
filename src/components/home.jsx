@@ -19,7 +19,7 @@ const Home = () => {
             {/* Carousel */}
             <div className="carousel">
                 <img
-                    src="src/pictures/resturant.jpg"
+                    src="/pictures/resturant.jpg"
                     alt="Interior view of alkhan restaurant with a bar and seating area"
                 />
             </div>
@@ -28,7 +28,7 @@ const Home = () => {
             </div>
             <div className="carousel">
                 <img
-                    src="src/pictures/table4.jpg"
+                    src="/pictures/table4.jpg"
                     alt="Interior view of alkhan restaurant table"
                 />
             </div>

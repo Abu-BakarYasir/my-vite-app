@@ -24,7 +24,7 @@ function Aboutus() {
                 <h1>OUR STORY</h1>
                 <br />
                 <div className="second">
-                    <img id="img1" src="src/pictures/monaal.png" alt="monal" />
+                    <img id="img1" src="/pictures/monaal.png" alt="monal" />
                     <p id="para">
                      A L - K H A N  R E S T A U R A N T strives to source local, sustainable, and organic when possible. 
                         We work hard to source premium ingredients and we cook everything from scratch with love.
@@ -122,7 +122,7 @@ function Aboutus() {
             <br/>
             <div className="pic-des">
                 <div className='first'>
-                    <img id="img2" src="src/pictures/monal3.webp" alt="image shot at Yang's Kitchen" />
+                    <img id="img2" src="/pictures/monal3.webp" alt="image shot at Yang's Kitchen" />
                     <p>Image shot on location at A L - K H A N  R E S T A U R A N T</p>
                 </div>
             </div>
